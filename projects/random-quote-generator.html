@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	  <title>Random Quote Generator</title>
+
+    <link href="http://www.sntokos.com/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="http://www.sntokos.com/portfolio/projects/css/random-quote-generator.css" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <script src="http://www.sntokos.com/bootstrap/js/jquery-3.1.1.min.js"></script>
+    <script src="http://www.sntokos.com/portfolio/projects/js/random-quote-generator.js"></script>
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-96106172-1', 'auto');
+      ga('send', 'pageview'); 
+    </script>
+  </head>
+  <body>  
+    <div id="quoteDiv" class="container"> 
+        <div class="row text-justify">
+          <blockquote id="blockQuote">
+            <div class="col-xs-1"> <i id="qLeft" class="fa fa-quote-left" aria-hidden="true"></i> </div>
+            <div class="col-xs-10"><p id="quote"></p></div>
+            <div class="col-xs-1"> <i id="qRight" class="fa fa-quote-right" aria-hidden="true"></i> </div> 
+            <div class="col-xs-12"><footer id="author" class="text-right"> <cite title="Source Title"><Source Title</cite></footer></div>
+          </blockquote>
+        </div><br><br>
+        <div class="row">
+          <div class="col-xs-6"><a id="hrefTwitter" target="_blank"><button id="btnTwitter" class="btn btn-primary"><i class="fa fa-twitter"></i></button></a></div>
+          <div class="col-xs-6"><button id="btnNext" class="btn pull-right"> <b>Next</b> </button></div>
+        </div>
+          
+    </div>
+
+
+  </body>
+</html>

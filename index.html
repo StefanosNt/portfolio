@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
+    <meta name="theme-color" content="#2196F3">
+    <title>Stefanos Ntokos</title>
+
+    <!-- CSS  -->
+    <link href="css/style.css" type="text/css" rel="stylesheet">
+    <link href="css/materialize.min.css" type="text/css" rel="stylesheet" > 
+    <link href="css/font-awesome.min.css" type="text/css" rel="stylesheet" > 
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-96106172-1', 'auto');
+      ga('send', 'pageview');
+
+    </script>
+    <script src="js/jquery-2.1.1.min.js"></script>
+    <script src="js/materialize.min.js"></script> 
+	<script src="js/init.js"></script> 
+</head>
+<body id="top" class="scrollspy">
+
+<!-- Pre Loader -->
+<div id="loader-wrapper">
+    <div id="loader"></div>
+ 
+    <div class="loader-section section-left"></div>
+    <div class="loader-section section-right"></div>
+ 
+</div>
+
+<!--Navigation-->
+ <div class="navbar-fixed">
+    <nav id="nav_f" class="default_color transparent" role="navigation">
+        <div class="container">
+            <div class="nav-wrapper">
+            <a href="#" id="logo-container" class="brand-logo">Stefanos Ntokos</a>
+                <ul class="right hide-on-med-and-down">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li> 
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <ul id="nav-mobile" class="side-nav">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li> 
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
+            </div>
+        </div>
+    </nav>
+</div>
+
+<!--Hero-->
+<div class="section no-pad-bot" id="index-banner">
+    <div class="container">
+        <h1 class="text_h center header cd-headline letters type">
+            <span>I Love</span> 
+            <span class="cd-words-wrapper waiting">
+                <b class="is-visible">creating</b> 
+                <b>developing</b>
+            </span>
+        </h1>
+    </div>
+</div>
+
+<!--Intro and service-->
+<div id="about" class="section scrollspy">
+    <div class="container-fluid">
+        <div id ="about-row" class="row valign-wrapper">
+            <div  class="col s12 l4">
+				<div class="center promo promo-example">
+					<div id="profile">
+						<img id="profile-photo" class="circle" src="img/profile.jpg" alt=""> 
+						<h5>Stefanos</h5>
+						 <a class="red-text text-darken-1" href="#">Software Developer</a> 
+						 <p><a id="cv-button" class="btn blue white-text" href="CV-Ntokos.pdf" >View CV</a></p>
+
+					</div>
+                </div>
+            </div>
+
+            <div  class="col s12 l8">
+				<span id="professional-profile" class="center header text_h2"> 
+          			<p><span class="span_h2 red-text text-darken-1">&lt; </span><span class="span_h2">Quality-focused</span> individual committed to approaching each task with <span class="span_h2">tenacity</span> and <span class="span_h2">attention to detail.</span><span class="span_h2 red-text text-darken-1"> /&gt;</span></p>
+           		</span>
+            </div> 
+        </div>
+    </div>
+</div>
+
+<!--Portfolio-->
+<div class="section scrollspy" id="portfolio">
+    <div class="container">
+        <h2 class="header text_b fw300">Portfolio </h2> 
+        <hr>
+        <div class="row">
+		   <h4 class="header text_b fw300">Main Projects</h4> 
+            <div class="col s12 m6 l4">
+                <div class="card">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator" src="img/tvscouter.jpg">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">TVScouter<i class="mdi-navigation-more-vert right"></i></span>
+                        <p><a class ="link" href="http://tvscouter.com" target="_blank">Link</a><a href="https://github.com/StefanosNt/tvscouter" target="_blank">Source</a></p> 
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4">TVScouter<i class="mdi-navigation-close right"></i></span>
+                        <p>A web application created for tracking TV series. It features an automated air date schedule based on user watchlist, popular & top rated sections and an “hours spent on series” counter. The app was created with the use of the TMDb API and HTML5, MaterializeCSS, Laravel, MySQL, jQuery, AJAX.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="row">
+           <h4 class="header text_b fw300">Side Projects</h4> 
+           <div class="col s12 m6 l4">
+                <div class="card">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator" src="img/img2.jpg">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">Wikipedia Viewer<i class="mdi-navigation-more-vert right"></i></span>
+                        <p><a class ="link" href="projects/wikipedia-viewer.html" target="_blank">Link</a><a href="projects/zips/wikipedia-viewer.zip" download="">Source</a></p> 
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4">Wikipedia Viewer<i class="mdi-navigation-close right"></i></span>
+                        <p>Wikipedia live search without the need of page reload to bring the results on screen.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col s12 m6 l4">
+                <div class="card">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator" src="img/img3.jpg">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">JS Calculator<i class="mdi-navigation-more-vert right"></i></span>
+                        <p><a class ="link" href="projects/calculator.html" target="_blank">Link</a><a href="projects/zips/calculator.zip" download="">Source</a></p> 
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4">JS Calculator<i class="mdi-navigation-close right"></i></span>
+                        <p>Just another Javascript calculator. Not pure though.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col s12 m6 l4">
+                <div class="card">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator" src="img/img4.jpg">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">Quote Generator<i class="mdi-navigation-more-vert right"></i></span>
+                        <p><a class ="link" href="projects/random-quote-generator.html" target="_blank">Link</a><a href="projects/zips/random-quote-generator.zip" download="">Source</a></p> 
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4">Quote Generator<i class="mdi-navigation-close right"></i></span>
+                        <p>Thechnological quotes served to you just at the press of a button.Only for geeks.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col s12 m6 l4">
+                <div class="card">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator" src="img/img5.jpg">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">TIC TAC TOE<i class="mdi-navigation-more-vert right"></i></span>
+                        <p><a class ="link" href="projects/tic-tac-toe.html" target="_blank">Link</a><a href="projects/zips/tic-tac-toe.zip" download="">Source</a></p> 
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4">TIC TAC TOE<i class="mdi-navigation-close right"></i></span>
+                        <p>Get ready to play with the almighty AI. Well, it's easier than you think.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col s12 m6 l4">
+                <div class="card">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator" src="img/img6.jpg">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">Local Weather<i class="mdi-navigation-more-vert right"></i></span>
+                        <p><a class ="link" href="projects/weather-app.html" target="_blank">Link</a><a href="projects/zips/weather-app.zip" download="">Source</a></p> 
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4">Local Weather<i class="mdi-navigation-close right"></i></span>
+                        <p>Track the weather in your area.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col s12 m6 l4">
+                <div class="card">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator" src="img/img7.jpg">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">Simon Game<i class="mdi-navigation-more-vert right"></i></span>
+                        <p><a class ="link" href="projects/simon-game.html" target="_blank">Link</a><a href="projects/zips/simon-game.zip" download="">Source</a></p> 
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4">Simon Game<i class="mdi-navigation-close right"></i></span>
+                        <p>The classic simon game but with a visual twist.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--Parallax-->
+<div class="parallax-container">
+    <div class="parallax"><img src="img/background2.jpg"></div>
+</div>
+
+<!--Footer-->
+<footer id="contact" class="page-footer default_color scrollspy">
+    <div class="container">  
+        <div class="row" style="margin:0"> 
+            <div class="col s12 m6">
+                <h5 class="white-text"> Contact </h5>
+                <ul>
+                    <li class="white-text">For any further information feel free to contact me at <span id="contact-email"></span></li> 
+                </ul>
+            </div>
+            <div class="col s12 m6">
+                <h5 class="white-text">Social</h5>
+                <ul id="contact-social"> 
+                    <li>
+                        <a class="white-text" href="https://www.linkedin.com/in/sntokos" target="_blank">
+                            <i class="small fa fa-linkedin-square white-text"></i> Linkedin
+                        </a>
+                    </li>  
+                    <li>
+                        <a class="white-text" href="https://github.com/StefanosNt" target="_blank">
+                            <i class="small fa fa-github-square white-text"></i> Github
+                        </a>
+                    </li>      
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
+
+ 
+    </body>
+</html>

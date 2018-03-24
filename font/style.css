@@ -1,0 +1,289 @@
+html,
+body {
+	height: 100%;
+}
+
+hr {
+	width: 50%;
+	margin-left: 0;
+	margin-top: 20px;
+	margin-bottom: 50px;
+}
+
+.default_color {
+	background-color: rgba(33, 150, 243, 0.9) !important
+}
+
+.transparent {
+	background-color: transparent!important
+}
+
+.default_color_text {
+	color: #2196F3 !important
+}
+
+.fw300 {
+	font-weight: 300
+}
+
+.link {
+	padding-right: 15px
+}
+
+.icon-block {
+	padding: 0 15px;
+}
+
+#intro,
+#portfolio,
+#team {
+	padding-top: 4rem;
+}
+
+#index-banner {
+	min-height: 632px;
+	/*max-height: 864px;*/
+	position: relative;
+	/*    background-color: #2196F3;*/
+	background: url('../img/background1.jpg');
+	height: 100%;
+	/*height: 80%;*/
+	margin-top: -64px;
+}
+
+#nav_f {
+	box-shadow: none !important;
+	-webkit-box-shadow: none !important;
+	transition: all .2s ease-in;
+}
+
+#cv-button {
+	box-shadow: none;
+}
+
+#cv-button:hover {
+	box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16);
+}
+
+#profile {
+	display: inline-block;
+	/*	border: solid 1px;*/
+	width: 190px;
+	box-shadow: 0px 13px 0px -5px #E53935;
+	border-radius: 10%;
+}
+
+#profile-photo {
+	width: 150px;
+	height: auto;
+	box-shadow: 0px 0px 1px 0px rgb(96, 96, 96);
+}
+
+#professional-profile {
+	font-size: 3.56rem!important;
+}
+
+#contact-email {
+	font-size: 1.1rem;
+	font-weight: bold;
+}
+
+#contact-social li {
+	display: inline;
+	padding-right: 20px;
+}
+
+#contact {
+	padding-bottom: 20px;
+}
+
+#about-row {
+	*/ padding-top: 20px;
+}
+
+.text_h {
+	padding: 15% 0;
+	font-size: 6.0em;
+	font-weight: 100;
+	color: white;
+}
+
+.brand-logo {
+	position: absolute;
+	color: #fff;
+	display: inline-block;
+	font-size: 2.1rem;
+	font-style: normal;
+	font-weight: 100;
+	padding: 0;
+	letter-spacing: 7px;
+}
+
+.text_h2 {
+	font-weight: 100;
+	margin-bottom: 4%;
+	line-height: 4.5rem;
+}
+
+.span_h2 {
+	font-weight: 300;
+	color: #2196F3;
+}
+
+.text_b {
+	color: #2196F3;
+}
+
+.in {
+	font-weight: 400 !important;
+	font-style: normal !important;
+}
+
+.promo i {
+	color: #2196F3;
+	font-size: 7rem;
+	display: block;
+}
+
+.card-content a {
+	color: #2196F3;
+}
+
+.card-content a:hover {
+	color: #2196F3;
+}
+
+#portfolio,
+#team {
+	background: rgb(247, 247, 247);
+}
+
+nav ul a {
+	font-size: 1.2rem;
+	color: #FFF;
+	letter-spacing: 2px;
+	display: block;
+	font-weight: 300;
+	padding: 0px 15px;
+}
+
+.cd-headline.type .cd-words-wrapper {
+	vertical-align: top;
+	overflow: hidden;
+}
+
+.cd-headline.type .cd-words-wrapper::after {
+	/* vertical bar */
+	content: '';
+	position: absolute;
+	right: 0;
+	top: 50%;
+	bottom: auto;
+	-webkit-transform: translateY(-50%);
+	-moz-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	-o-transform: translateY(-50%);
+	transform: translateY(-50%);
+	height: 90%;
+	width: 1px;
+	background-color: #aebcb9;
+}
+
+.cd-headline.type .cd-words-wrapper.waiting::after {
+	-webkit-animation: cd-pulse 1s infinite;
+	-moz-animation: cd-pulse 1s infinite;
+	animation: cd-pulse 1s infinite;
+}
+
+.cd-headline.type .cd-words-wrapper.selected {
+	background-color: #FFF;
+}
+
+.cd-headline.type .cd-words-wrapper.selected::after {
+	visibility: hidden;
+}
+
+.cd-headline.type .cd-words-wrapper.selected b {
+	color: #2196F3;
+}
+
+.cd-headline.type b {
+	visibility: hidden;
+}
+
+.cd-headline.type b.is-visible {
+	visibility: visible;
+}
+
+.cd-headline.type i {
+	position: absolute;
+	visibility: hidden;
+}
+
+.cd-headline.type i.in {
+	position: relative;
+	visibility: visible;
+}
+
+@media only screen and (max-width: 480px) {
+	.text_h {
+		padding: 4% 0;
+		font-size: 5em;
+		font-weight: 100;
+		color: white;
+	}
+}
+
+@media only screen and (max-width: 600px) {
+	#professional-profile {
+		font-size: 2.92rem!important
+	}
+}
+
+@media only screen and (max-width: 992px) {
+	#about-row {
+		display: block
+	}
+	#profile-photo {
+		max-width: 200px
+	}
+}
+
+nav a.button-collapse {
+	left: -25px;
+}
+
+.card-avatar .waves-effect {
+	text-align: center;
+	margin-top: 20px;
+}
+
+.card-avatar img {
+	height: 150px;
+	width: 150px;
+	border-radius: 75px;
+}
+
+.card-avatar .card-content {
+	text-align: center;
+}
+
+.card .card-content p {
+	margin: 15px 0px;
+}
+
+.card-avatar .card-content i {
+	font-size: 1.5rem;
+}
+
+.card-avatar .card-content .card-title {
+	line-height: 30px !important;
+}
+
+.parallax-container {
+	max-height: 400px;
+}
+
+footer.page-footer {
+	margin-top: 0px !important;
+}
